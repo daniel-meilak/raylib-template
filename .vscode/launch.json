@@ -55,13 +55,6 @@
             "miDebuggerPath": "/usr/bin/gdb"
           },
           "preLaunchTask": "build release",
-        },
-        {
-          "type": "firefox",
-          "request": "attach",
-          "name": "Create game.html",
-          "url": "http://localhost:5500/game.html",
-          "preLaunchTask": "build web"
-       }
+        }
       ]
     }
